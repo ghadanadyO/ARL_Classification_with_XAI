@@ -1,28 +1,4 @@
 # ARL_Classification_with_XAI
-## Project_Structure
-
-├── README.md 
-├── requirements.txt  
-└── Dataset  
-   ├── unlabeled.csv
-   ├── labeled.csv
-   ├── unlabeled
-   └── labeled 
-├── ARL.py         
-├── Feature extraction
-    └── GLCM_features.py
-    └── LBP features.py
-    └── Statistic_Features.py
-    └── features_shape.py
-├── Feature selection
-    └── Feature_selection.py          
-├── Normalization.py
-├── Classifiers
-    ├── ML.py
-    └── Trad_DL_CNN.py
-    └── Trad_DL_CoAtNet.py
-    └── DL_Attention_fusion.py
-└── XAI.py
 
 ## Overview
 
@@ -71,4 +47,27 @@ To ensure clinical interpretability, Explainable AI techniques were applied on t
 The XAI visualizations highlight regions of interest (ROI) that influence the model’s decision, aligning with radiologists’ assessments and increasing trust in model predictions.
 
 
+## Project_Structure
 
+├── README.md
+├── requirements.txt
+├── Dataset
+│   ├── unlabeled.csv
+│   ├── labeled.csv
+│   ├── unlabeled
+│   └── labeled
+├── ARL.py
+├── Feature_extraction
+│   ├── GLCM_features.py
+│   ├── LBP_features.py
+│   ├── Statistic_Features.py
+│   └── features_shape.py
+├── Feature_selection
+│   └── Feature_selection.py
+├── Normalization.py
+├── Classifiers
+│   ├── ML.py
+│   ├── Trad_DL_CNN.py
+│   ├── Trad_DL_CoAtNet.py
+│   └── DL_Attention_fusion.py
+└── XAI.py
