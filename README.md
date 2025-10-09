@@ -8,7 +8,7 @@ The workflow combines feature extraction, feature selection, deep feature fusion
 ## Step 1: Dataset Preparation 
 - Dataset Size: 790 patients with a total of 30,020 CT scan images.
 - Image Resolution: Each image is resized to 128 × 128 pixels for uniform input.
-## Step 2: Reinforcement Active Learning with CoAtNet
+## Step 2: Reinforcement Active Learning with DL
 The dataset was divided into two parts:
 - Labeled data: 6,080 images
 - Unlabeled data: 23,940 images
