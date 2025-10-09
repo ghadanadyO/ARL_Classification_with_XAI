@@ -50,17 +50,10 @@ The XAI visualizations highlight regions of interest (ROI) that influence the mo
 ├── README.md
 ├── requirements.txt  
 ├── Dataset  
-   ├── full_df.csv
+   ├── unlabeled.csv
+   ├── labeled.csv
    ├── unlabeled
    └── labeled 
-└── ODIR-5K/
-    ├── full_df.csv
-    └── Training Images
-    └── Testing Images
-└── VOC2007/
-    ├── Annotations/                  # XML files containing object annotations (bounding boxes, classes)
-    │   ├── 000001.xml
-    │   ├── 000002.xml
 ├── ARL.py         
 ├── Feature extraction
     └── GLCM_features.py
