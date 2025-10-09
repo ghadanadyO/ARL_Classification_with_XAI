@@ -1,0 +1,12 @@
+## Setup
+
+### Prerequisites
+* Python 3.x
+* numpy
+* pandas
+* tensorflow
+* scikit-learn
+* pydicom
+* opencv-python # For cv2
+* seaborn
+* matplotlib
