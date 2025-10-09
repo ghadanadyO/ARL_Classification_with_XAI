@@ -41,6 +41,7 @@ Each selected feature subset was trained and evaluated using:
 - Combine Traditional Features + CNN
 - Combine Traditional Features + CoAtNet
 - Combine Traditional Features + CNN with Attention Fusion Features
+
 This hybrid fusion enhances diagnostic performance by integrating handcrafted and deep features.
 
 ## Step 6: Explainable AI (XAI) with Radiologist Opinion
