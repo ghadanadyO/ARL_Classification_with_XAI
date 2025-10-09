@@ -1,4 +1,29 @@
 # ARL_Classification_with_XAI
+## Project_Structure
+
+├── README.md 
+├── requirements.txt  
+└── Dataset  
+   ├── unlabeled.csv
+   ├── labeled.csv
+   ├── unlabeled
+   └── labeled 
+├── ARL.py         
+├── Feature extraction
+    └── GLCM_features.py
+    └── LBP features.py
+    └── Statistic_Features.py
+    └── features_shape.py
+├── Feature selection
+    └── Feature_selection.py          
+├── Normalization.py
+├── Classifiers
+    ├── ML.py
+    └── Trad_DL_CNN.py
+    └── Trad_DL_CoAtNet.py
+    └── DL_Attention_fusion.py
+└── XAI.py
+
 ## Overview
 
 This project focuses on lung cancer detection using Reinforcement Active Learning (RAL) integrated with deep learning (CoAtNet and CNN) and traditional machine learning features.
@@ -45,29 +70,5 @@ This hybrid fusion enhances diagnostic performance by integrating handcrafted an
 To ensure clinical interpretability, Explainable AI techniques were applied on the 128×128 resized CT images.
 The XAI visualizations highlight regions of interest (ROI) that influence the model’s decision, aligning with radiologists’ assessments and increasing trust in model predictions.
 
-## Project_Structure
-
-├── README.md 
-├── requirements.txt  
-└── Dataset  
-   ├── unlabeled.csv
-   ├── labeled.csv
-   ├── unlabeled
-   └── labeled 
-├── ARL.py         
-├── Feature extraction
-    └── GLCM_features.py
-    └── LBP features.py
-    └── Statistic_Features.py
-    └── features_shape.py
-├── Feature selection
-    └── Feature_selection.py          
-├── Normalization.py
-├── Classifiers
-    ├── ML.py
-    └── Trad_DL_CNN.py
-    └── Trad_DL_CoAtNet.py
-    └── DL_Attention_fusion.py
-└── XAI.py
 
 
