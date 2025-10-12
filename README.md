@@ -12,7 +12,8 @@ The workflow combines feature extraction, feature selection, deep feature fusion
 The dataset was divided into two parts:
 - Labeled data: 6,080 images
 - Unlabeled data: 23,940 images
-  https://www.kaggle.com/datasets/ghadanadyo/part-bowl201730020-ct-images-lung-cancer
+  
+https://www.kaggle.com/datasets/ghadanadyo/part-bowl201730020-ct-images-lung-cancer
 
 The Reinforcement Active Learning (RAL) strategy was applied using a simple CoAtNet model to iteratively select informative samples for labeling, improving model accuracy with minimal human labeling effort.
 ## Step 3: Feature Extraction & Selection 
