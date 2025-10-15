@@ -8,7 +8,7 @@ The workflow combines feature extraction, feature selection, deep feature fusion
 ## Step 1: Dataset Preparation 
 The Original dataset is used in this research follows link:
 https://academictorrents.com/details/015f31a94c600256868be155358dc114157507fc
-and this research is used part of orignal dataset 
+and this research is used part of orignal dataset as follows:
 - Dataset Size: 790 patients with a total of 30,020 CT scan images.
 - Image Resolution: Each image is resized to 128 × 128 pixels for uniform input.
 ## Step 2: Reinforcement Active Learning with DL
